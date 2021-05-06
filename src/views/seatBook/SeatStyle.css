@@ -1,0 +1,23 @@
+.seat {
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #000;
+  background-color: #FFF;
+}
+
+.booked {
+  cursor: crosshair;
+  color: #E1E1E1;
+  background-color: gray;
+}
+
+.selected {
+  background-color: green;
+}
+
+.seatNotExist {
+  visibility: hidden;
+}
